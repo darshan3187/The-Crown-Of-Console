@@ -23,6 +23,7 @@ import {
   ArrowUpRight,
   MessageCircle
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Main Application ---
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
